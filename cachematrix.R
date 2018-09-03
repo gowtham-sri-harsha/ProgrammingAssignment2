@@ -26,7 +26,7 @@ i <- x$getinverse()
         return(i)
     }
     data <- x$get()
-    inv <- solve(data)
+    i <- solve(data)
     x$setinverse(inv)
-    inv
+    i
 }
